@@ -15,7 +15,12 @@ function Header() {
           <Link to={"/contact"}>Contact</Link>
         </li>
         <li>
-          <Link to={"/about"}>About</Link>
+          <Link to={"/about"} target={"_blank"}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="/product"> Products</Link>
         </li>
       </ul>
     </nav>
